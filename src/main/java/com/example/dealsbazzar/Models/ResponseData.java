@@ -1,4 +1,4 @@
-package com.example.dealsbazzar.Response;
+package com.example.dealsbazzar.Models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

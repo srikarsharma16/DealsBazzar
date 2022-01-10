@@ -15,23 +15,18 @@ import lombok.Setter;
 @Document(collection = "Category")
 public class Category {
     @Id
-    private String cId;
+    private String categoryId;
     private String productCategory;
     private String productMeasurement;
-
-    public String getcId() {
-        return cId;
-    }
-
-    public void setcId(String cId) {
-        this.cId = cId;
-    }
-
+    
+        
     @Override
     public String toString() {
-        return "Category [cId=" + cId + ", productCategory=" + productCategory + ", productMeasurement="
+        return "Category [categoryId=" + categoryId + ", productCategory=" + productCategory + ", productMeasurement="
                 + productMeasurement + "]";
     }
+
+    
 
     
 
